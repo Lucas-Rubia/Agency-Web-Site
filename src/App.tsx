@@ -1,14 +1,20 @@
 import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "./components/header";
 import { HeroSection } from "./components/hero-section";
+import { OurServices } from "./components/our-services-section";
+import { ReasonsJourney } from "./components/reasons-journey-section";
 
 function App() {
   return (
     <ThemeProvider defaultTheme="dark" storageKey="Agency-WebSite-theme">
-      <div className="p-4 pt-10 min-[1440px]:p-10 min-[1440px]:pt-7 min-[1920px]:p-12">
+      <main className="p-4 pt-10 min-[1440px]:p-10 min-[1440px]:pt-7 min-[1920px]:p-12">
         <Header />
-        <HeroSection />
-      </div>
+        <div className="space-y-12 min-[1440px]:space-y-20 min-[1920px]:space-y-[120px]">
+          <HeroSection />
+          <ReasonsJourney />
+          <OurServices />
+        </div>
+      </main>
     </ThemeProvider>
   );
 }

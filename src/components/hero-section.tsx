@@ -81,7 +81,7 @@ export function HeroSection() {
         </div>
         <div className="flex items-center justify-center">
           <Button variant="ghost" className="text-[#b3b3b2] hover:bg-transparent text-wrap  min-[1440px]:text-nowrap min-[1440px]:text-base min-[1920px]:text-xl">
-            <span className="size-12 rounded-full bg-[#0f0f0f] text-[#e7beb1] flex items-center justify-center shrink-0 min-[1920px]:size-[68px]">
+            <span className="size-12 rounded-full bg-[#0f0f0f] text-[#e7beb1] flex items-center justify-center shrink-0 min-[1920px]:size-[68px] border border-[#262626]">
               <ArrowUpRight className="!size-7 stroke-[1px] min-[1920px]:!size-9" />
             </span>
             Know More
