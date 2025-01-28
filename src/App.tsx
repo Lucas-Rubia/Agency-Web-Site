@@ -2,6 +2,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Header } from "./components/header";
 import { HeroSection } from "./components/hero-section";
 import { OurServices } from "./components/our-services-section";
+import { OurWorks } from "./components/our-works";
 import { ReasonsJourney } from "./components/reasons-journey-section";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
           <HeroSection />
           <ReasonsJourney />
           <OurServices />
+          <OurWorks />
         </div>
       </main>
     </ThemeProvider>
