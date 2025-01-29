@@ -4,6 +4,8 @@ import { HeroSection } from "./components/hero-section";
 import { OurServices } from "./components/our-services-section";
 import { OurWorks } from "./components/our-works";
 import { ReasonsJourney } from "./components/reasons-journey-section";
+import { Testimonials } from "./components/testimonials";
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
           <ReasonsJourney />
           <OurServices />
           <OurWorks />
+          <Testimonials />
         </div>
       </main>
     </ThemeProvider>

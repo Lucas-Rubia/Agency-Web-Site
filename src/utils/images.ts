@@ -10,9 +10,14 @@ import Avatar3 from "@/assets/images/avatar3.png";
 import Avatar4 from "@/assets/images/avatar4.png";
 import Avatar5 from "@/assets/images/avatar5.png";
 import Logo from "@/assets/images/logo.svg";
+import Person1 from "@/assets/images/person1.png";
+import Person2 from "@/assets/images/person2.png";
+import Person3 from "@/assets/images/person3.png";
+import Person4 from "@/assets/images/person4.png";
 import Product01 from "@/assets/images/product_1.png";
 import Product02 from "@/assets/images/product_2.png";
 import RealEstate from "@/assets/images/real_estate.png";
+
 
 export const images = {
   Logo,
@@ -30,4 +35,8 @@ export const images = {
   Avatar3,
   Avatar4,
   Avatar5,
+  Person1,
+  Person2,
+  Person3,
+  Person4,
 }
