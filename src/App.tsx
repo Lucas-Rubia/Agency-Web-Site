@@ -1,11 +1,13 @@
 import { ThemeProvider } from "@/components/theme-provider";
+import { Toaster } from "@/components/ui/toaster";
+import { CallToAction } from "./components/call-to-action";
+import { FrequentlyAskedQuestions } from "./components/frequently-asked-questions";
 import { Header } from "./components/header";
 import { HeroSection } from "./components/hero-section";
 import { OurServices } from "./components/our-services-section";
 import { OurWorks } from "./components/our-works";
 import { ReasonsJourney } from "./components/reasons-journey-section";
 import { Testimonials } from "./components/testimonials";
-
 
 function App() {
   return (
@@ -18,8 +20,11 @@ function App() {
           <OurServices />
           <OurWorks />
           <Testimonials />
+          <FrequentlyAskedQuestions />
+          <CallToAction />
         </div>
       </main>
+      <Toaster />
     </ThemeProvider>
   );
 }
