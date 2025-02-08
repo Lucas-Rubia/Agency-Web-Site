@@ -1,6 +1,10 @@
 import AuraEcommerce from "@/assets/icons/aura-ecommerce.svg";
+import Behance from "@/assets/icons/behance.svg";
 import DigitalMarketing from "@/assets/icons/digital-marketing.svg";
+import Dribble from "@/assets/icons/dribble.svg";
+import Instagram from "@/assets/icons/instagram.svg";
 import MobileAppDevelopment from "@/assets/icons/mobile-app-development.svg";
+import Twitter from "@/assets/icons/twitter.svg";
 import WebDesignLogo from "@/assets/icons/web-design.svg";
 import WebDevelopment from "@/assets/icons/web-development.svg";
 import ZenithFitness from "@/assets/icons/zenith-fitness.svg";
@@ -39,4 +43,8 @@ export const images = {
   Person2,
   Person3,
   Person4,
+  Instagram,
+  Twitter,
+  Dribble,
+  Behance,
 }

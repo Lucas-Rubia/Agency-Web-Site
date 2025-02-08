@@ -1,6 +1,7 @@
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/toaster";
 import { CallToAction } from "./components/call-to-action";
+import { Footer } from "./components/footer";
 import { FrequentlyAskedQuestions } from "./components/frequently-asked-questions";
 import { Header } from "./components/header";
 import { HeroSection } from "./components/hero-section";
@@ -21,7 +22,10 @@ function App() {
           <OurWorks />
           <Testimonials />
           <FrequentlyAskedQuestions />
-          <CallToAction />
+          <div>
+            <CallToAction />
+            <Footer />
+          </div>
         </div>
       </main>
       <Toaster />

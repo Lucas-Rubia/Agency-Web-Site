@@ -51,7 +51,7 @@ export function FormAskQuestion() {
               </FormLabel>
               <FormControl>
                 <Input
-                  className="h-14 min-[1440px]:h-16 min-[1920px]:h-[75px]"
+                  className="h-14 min-[1440px]:h-16 min-[1920px]:h-[75px] rounded-xl border-none"
                   placeholder="Enter your name"
                   {...field}
                 />
@@ -70,7 +70,7 @@ export function FormAskQuestion() {
               </FormLabel>
               <FormControl>
                 <Input
-                  className="h-14 min-[1440px]:h-16 min-[1920px]:h-[75px]"
+                  className="h-14 min-[1440px]:h-16 min-[1920px]:h-[75px] rounded-xl border-none"
                   placeholder="Enter your email"
                   {...field}
                 />
@@ -89,7 +89,7 @@ export function FormAskQuestion() {
               </FormLabel>
               <FormControl>
                 <Textarea
-                  className="resize-none"
+                  className="resize-none rounded-xl border-none pt-5"
                   rows={4}
                   placeholder="Enter your Question here ......."
                   {...field}
